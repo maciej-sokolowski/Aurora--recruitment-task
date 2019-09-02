@@ -1,5 +1,9 @@
-$body-color: blue;
+@import "variables-and-mixins";
 
-body {
-  color: $body-color;
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  font-family: $primary-font;
 }
