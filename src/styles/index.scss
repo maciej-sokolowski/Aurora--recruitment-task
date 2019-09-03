@@ -1,9 +1,12 @@
 @import "variables-and-mixins";
+@import "header-menu";
 
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
   text-decoration: none;
   list-style: none;
   font-family: $primary-font;
+  font-weight: 400;
 }
