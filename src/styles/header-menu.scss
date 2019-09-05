@@ -76,7 +76,7 @@
   }
 
   &__contact-menu-trigger:checked ~ &__contact-container {
-    display: flex;
+    left: 0px;
   }
 
   &__contact-container {
@@ -87,9 +87,12 @@
     padding-left: 7px;
     padding-right: 7px;
     top: 25px;
+    left: -50vw;
     background-color: #e2a6b4;
-    display: none;
+    display: flex;
+    transition: .8s;
     @include tablet {
+      transition: none;
       display: flex;
       justify-content: flex-start;
       flex-direction: row;
