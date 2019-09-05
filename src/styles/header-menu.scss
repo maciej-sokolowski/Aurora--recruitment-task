@@ -82,11 +82,12 @@
   &__contact-container {
     position: absolute;
     flex-direction: column;
-    max-width: 40%;
-    height: 80px;
-    left: 7px;
-    top: 20px;
-    background-color: white;
+    max-width: 50%;
+    height: 70px;
+    padding-left: 7px;
+    padding-right: 7px;
+    top: 25px;
+    background-color: #e2a6b4;
     display: none;
     @include tablet {
       display: flex;
@@ -95,6 +96,8 @@
       left: 10px;
       top: 0px;
       height: 100%;
+      padding: 0px;
+      background-color: transparent;
     }
     @include desktop {
       left: 20%;
@@ -112,6 +115,12 @@
       line-height: 0px;
       margin-right: 20px;
       padding-top: 12px;
+    }
+  }
+
+  &__link:hover {
+    @include desktop {
+      color: #d690a3;
     }
   }
 

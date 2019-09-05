@@ -74,12 +74,18 @@
     height: 30px;
     width: 105px;
     max-width: 35%;
+    transition: .3s;
     @include tablet {
       position: absolute;
       right: 35px;
     }
     @include desktop {
       width: 115px;
+    }
+  }
+  &__basket:hover {
+    @include desktop {
+      transform: scale(1.1);
     }
   }
 

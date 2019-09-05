@@ -83,4 +83,12 @@
       color: #ecc7d0;
     }
   }
+  &__nav-item:hover {
+    @include desktop {
+      transform: scale(1.1);
+      color: #d690a3;
+      transition: .3s;
+      cursor: pointer;
+    }
+  }
 }
